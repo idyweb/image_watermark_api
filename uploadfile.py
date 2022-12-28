@@ -1,11 +1,8 @@
 import cloudinary
 import os 
 import cloudinary.uploader
+from config2 import cloudinary_cloud_name, cloudinary_api_key, cloudinary_api_secret
 
-
-cloudinary_cloud_name = "asakas"
-cloudinary_api_key = "933431847228467"
-cloudinary_api_secret = "C__ji2DQPjIebSoaVSHQzxQNWEU"
 
 
 cloudinary.config( 
